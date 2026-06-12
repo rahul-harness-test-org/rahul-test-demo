@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: pipeline_service
+name: pipeline_service
+owner: CD
+spec:
+  lifecycle: production
+metadata:
+  description: Pipeline Service enables user to create, update and execute pipeline
+    on Harness
