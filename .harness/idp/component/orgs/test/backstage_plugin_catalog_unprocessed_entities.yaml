@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_catalog_unprocessed_entities
+name: backstageplugin_catalog_unprocessed_entities
+owner: catalog_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
