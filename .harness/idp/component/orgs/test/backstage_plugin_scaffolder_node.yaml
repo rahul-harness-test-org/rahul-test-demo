@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_scaffolder_node
+name: backstageplugin_scaffolder_node
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The plugin-scaffolder-node module for @backstage/plugin-scaffolder-backend
