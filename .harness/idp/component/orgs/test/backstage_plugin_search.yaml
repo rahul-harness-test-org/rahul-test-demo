@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_search
+name: backstageplugin_search
+owner: search_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: The Backstage plugin that provides your backstage app with search
