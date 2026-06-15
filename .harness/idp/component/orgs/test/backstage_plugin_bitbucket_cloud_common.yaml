@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-common-library
+identifier: backstage_plugin_bitbucket_cloud_common
+name: backstageplugin_bitbucket_cloud_common
+owner: pjungermann
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Common functionalities for bitbucket-cloud plugins
