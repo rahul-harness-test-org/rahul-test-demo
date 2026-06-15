@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: harness_guestbook
+name: harness_guestbook
+owner: engineering
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: harness_guestbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    harness.io/cd-serviceId: harness_guestbook
+  tags:
+  - harness-guestbook
