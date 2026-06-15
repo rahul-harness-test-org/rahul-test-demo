@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin
+identifier: backstage_plugin_mcp_actions_backend
+name: backstageplugin_mcp_actions_backend
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
