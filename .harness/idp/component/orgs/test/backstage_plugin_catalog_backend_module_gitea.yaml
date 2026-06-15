@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_catalog_backend_module_gitea
+name: backstageplugin_catalog_backend_module_gitea
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The gitea backend module for the catalog plugin provide by intive.com
