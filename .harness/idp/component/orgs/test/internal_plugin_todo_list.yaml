@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: internal_plugin_todo_list
+name: internalplugin_todo_list
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
