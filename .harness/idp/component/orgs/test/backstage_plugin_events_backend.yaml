@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin
+identifier: backstage_plugin_events_backend
+name: backstageplugin_events_backend
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
