@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_search_backend_module_stack_overflow_collator
+name: backstageplugin_search_backend_module_stack_overflow_collator
+owner: search_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: A module for the search backend that exports stack overflow modules
