@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_events_backend_test_utils
+name: backstageplugin_events_backend_test_utils
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The plugin-events-backend-test-utils for @backstage/plugin-events-node
