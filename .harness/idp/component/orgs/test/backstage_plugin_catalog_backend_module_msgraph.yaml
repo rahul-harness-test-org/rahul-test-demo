@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_catalog_backend_module_msgraph
+name: backstageplugin_catalog_backend_module_msgraph
+owner: pjungermann
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: A Backstage catalog backend module that helps integrate towards Microsoft
+    Graph
