@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: utility
+identifier: test_repo
+name: test_repo
+owner: sandeepa@harness.io
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: An example of a Backstage application.
