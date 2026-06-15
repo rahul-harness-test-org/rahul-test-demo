@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_techdocs_node
+name: backstageplugin_techdocs_node
+owner: techdocs_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: Common node.js functionalities for TechDocs, to be shared between techdocs-backend
+    plugin and techdocs-cli
