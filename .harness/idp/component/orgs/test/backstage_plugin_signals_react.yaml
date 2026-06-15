@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-web-library
+identifier: backstage_plugin_signals_react
+name: backstageplugin_signals_react
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Web library for the signals plugin
