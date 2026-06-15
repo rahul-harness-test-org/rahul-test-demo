@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_notifications_node
+name: backstageplugin_notifications_node
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Node.js library for the notifications plugin
