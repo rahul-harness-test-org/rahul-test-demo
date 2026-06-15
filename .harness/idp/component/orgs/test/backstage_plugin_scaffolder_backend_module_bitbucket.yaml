@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_scaffolder_backend_module_bitbucket
+name: backstageplugin_scaffolder_backend_module_bitbucket
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The bitbucket module for @backstage/plugin-scaffolder-backend
