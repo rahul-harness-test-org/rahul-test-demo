@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-common-library
+identifier: backstage_plugin_devtools_common
+name: backstageplugin_devtools_common
+owner: awanlin
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Common functionalities for the devtools plugin
