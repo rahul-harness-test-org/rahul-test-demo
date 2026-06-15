@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-web-library
+identifier: backstage_plugin_search_react
+name: backstageplugin_search_react
+owner: search_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
