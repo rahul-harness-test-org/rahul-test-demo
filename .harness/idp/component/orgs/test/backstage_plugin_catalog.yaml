@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_catalog
+name: backstageplugin_catalog
+owner: catalog_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: The Backstage plugin for browsing the Backstage catalog
