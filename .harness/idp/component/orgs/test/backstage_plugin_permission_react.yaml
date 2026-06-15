@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-web-library
+identifier: backstage_plugin_permission_react
+name: backstageplugin_permission_react
+owner: permission_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
