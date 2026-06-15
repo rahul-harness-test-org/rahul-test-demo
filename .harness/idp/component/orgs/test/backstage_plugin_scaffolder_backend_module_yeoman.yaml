@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_scaffolder_backend_module_yeoman
+name: backstageplugin_scaffolder_backend_module_yeoman
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
