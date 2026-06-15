@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-web-library
+identifier: backstage_plugin_scaffolder_react
+name: backstageplugin_scaffolder_react
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: A frontend library that helps other Backstage plugins interact with
+    the Scaffolder
