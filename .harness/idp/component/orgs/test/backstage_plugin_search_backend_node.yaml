@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_search_backend_node
+name: backstageplugin_search_backend_node
+owner: search_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: A library for Backstage backend plugins that want to interact with
+    the search backend plugin
