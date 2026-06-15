@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_notifications_backend_module_slack
+name: backstageplugin_notifications_backend_module_slack
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The slack backend module for the notifications plugin.
