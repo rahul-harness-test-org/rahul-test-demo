@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_catalog_backend_module_incremental_ingestion
+name: backstageplugin_catalog_backend_module_incremental_ingestion
+owner: catalog_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: An entity provider for streaming large asset sources into the catalog
