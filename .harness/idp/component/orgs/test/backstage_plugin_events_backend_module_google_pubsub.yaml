@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_events_backend_module_google_pubsub
+name: backstageplugin_events_backend_module_google_pubsub
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The google-pubsub backend module for the events plugin.
