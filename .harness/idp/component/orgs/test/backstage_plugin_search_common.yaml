@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-common-library
+identifier: backstage_plugin_search_common
+name: backstageplugin_search_common
+owner: search_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: Common functionalities for Search, to be shared between various search-enabled
+    plugins
