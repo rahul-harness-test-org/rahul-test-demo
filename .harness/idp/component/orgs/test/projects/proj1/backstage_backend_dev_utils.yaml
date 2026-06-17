@@ -1,0 +1,10 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_backend_dev_utils
+name: backstagebackend_dev_utils
+owner: framework_maintainers
+orgIdentifier: test
+projectIdentifier: proj1
+spec:
+  lifecycle: experimental
