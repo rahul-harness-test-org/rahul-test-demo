@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_backend_app_api
+name: backstagebackend_app_api
+owner: framework_maintainers
+orgIdentifier: default
+projectIdentifier: testrks
+spec:
+  lifecycle: experimental
+metadata:
+  description: Core API used by Backstage backend apps
