@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: app_next_example_plugin
+name: app_next_example_plugin
+owner: framework_maintainers
+orgIdentifier: default
+projectIdentifier: testrks
+spec:
+  lifecycle: experimental
+metadata:
+  description: Backstage internal example plugin
