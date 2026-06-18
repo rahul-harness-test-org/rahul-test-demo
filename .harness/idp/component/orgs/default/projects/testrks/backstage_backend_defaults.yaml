@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_backend_defaults
+name: backstagebackend_defaults
+owner: framework_maintainers
+orgIdentifier: default
+projectIdentifier: testrks
+spec:
+  lifecycle: experimental
+metadata:
+  description: Backend defaults used by Backstage backend apps
