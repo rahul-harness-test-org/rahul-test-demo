@@ -1,0 +1,10 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend
+identifier: example_app
+name: example_app
+owner: framework_maintainers
+orgIdentifier: default
+projectIdentifier: testrks
+spec:
+  lifecycle: experimental
