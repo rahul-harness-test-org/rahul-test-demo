@@ -1,0 +1,10 @@
+apiVersion: harness.io/v1
+kind: System
+identifier: e_commerce_platform
+name: e_commerce_platform
+owner: engineering
+orgIdentifier: test
+projectIdentifier: proj1
+spec: {}
+metadata:
+  description: The e-commerce platform system
