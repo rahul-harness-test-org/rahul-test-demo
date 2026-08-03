@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin-module
+identifier: backstage_plugin_techdocs_module_addons_contrib
+name: backstageplugin_techdocs_module_addons_contrib
+owner: techdocs_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: Plugin module for contributed TechDocs Addons

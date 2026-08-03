@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-web-library
+identifier: backstage_plugin_org_react
+name: backstageplugin_org_react
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental

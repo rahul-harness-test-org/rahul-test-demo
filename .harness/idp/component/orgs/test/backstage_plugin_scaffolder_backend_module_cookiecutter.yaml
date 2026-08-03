@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_scaffolder_backend_module_cookiecutter
+name: backstageplugin_scaffolder_backend_module_cookiecutter
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: A module for the scaffolder backend that lets you template projects
+    using cookiecutter

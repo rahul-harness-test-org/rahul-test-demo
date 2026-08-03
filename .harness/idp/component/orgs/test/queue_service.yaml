@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: queue_service
+name: queue_service
+owner: CD
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: A Generic queue implementation to process data democratically across
+    multiple queues

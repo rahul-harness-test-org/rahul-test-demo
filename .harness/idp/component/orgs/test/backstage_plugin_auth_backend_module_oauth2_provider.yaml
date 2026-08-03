@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_auth_backend_module_oauth2_provider
+name: backstageplugin_auth_backend_module_oauth2_provider
+owner: auth_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The oauth2-provider backend module for the auth plugin.

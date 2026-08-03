@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_notifications_backend_module_email
+name: backstageplugin_notifications_backend_module_email
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The email-notification-processor backend module for the notifications
+    plugin.

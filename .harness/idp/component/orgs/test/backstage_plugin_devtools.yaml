@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_devtools
+name: backstageplugin_devtools
+owner: awanlin
+orgIdentifier: test
+spec:
+  lifecycle: experimental

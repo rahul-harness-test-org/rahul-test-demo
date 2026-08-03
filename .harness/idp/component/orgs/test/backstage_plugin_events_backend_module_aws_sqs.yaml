@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_events_backend_module_aws_sqs
+name: backstageplugin_events_backend_module_aws_sqs
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental

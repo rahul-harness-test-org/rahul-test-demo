@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: website
+identifier: backstage
+name: backstage
+owner: john@example.com
+orgIdentifier: test
+projectIdentifier: proj2
+spec:
+  lifecycle: experimental
+metadata:
+  description: An example of a Backstage application.

@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_catalog_import
+name: backstageplugin_catalog_import
+owner: catalog_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: A Backstage plugin the helps you import entities into your catalog

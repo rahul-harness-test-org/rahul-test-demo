@@ -1,0 +1,20 @@
+apiVersion: harness.io/v1
+kind: Component
+type: documentation
+identifier: idp_docs
+name: idp_docs
+owner: idpui
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: Internal documentation of the internal developer portal module
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  links:
+  - url: https://developer.harness.io/docs/internal-developer-portal
+    title: External Docs
+    icon: dashboard
+    type: admin-dashboard
+  tags:
+  - docs

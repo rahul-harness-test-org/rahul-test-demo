@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-common-library
+identifier: backstage_plugin_scaffolder_common
+name: backstageplugin_scaffolder_common
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: Common functionalities for the scaffolder, to be shared between scaffolder
+    and scaffolder-backend plugin

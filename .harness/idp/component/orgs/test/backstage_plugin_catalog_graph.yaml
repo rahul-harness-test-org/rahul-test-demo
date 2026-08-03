@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_catalog_graph
+name: backstageplugin_catalog_graph
+owner: sda_se_reviewers
+orgIdentifier: test
+spec:
+  lifecycle: experimental

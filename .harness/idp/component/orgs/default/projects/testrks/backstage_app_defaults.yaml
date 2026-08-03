@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-web-library
+identifier: backstage_app_defaults
+name: backstageapp_defaults
+owner: framework_maintainers
+orgIdentifier: default
+projectIdentifier: testrks
+spec:
+  lifecycle: production
+metadata:
+  description: Provides the default wiring of a Backstage App

@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-common-library
+identifier: backstage_plugin_catalog_common
+name: backstageplugin_catalog_common
+owner: catalog_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: Common functionalities for the catalog plugin

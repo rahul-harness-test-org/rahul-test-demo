@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_home
+name: backstageplugin_home
+owner: home_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: A Backstage plugin that helps you build a home page

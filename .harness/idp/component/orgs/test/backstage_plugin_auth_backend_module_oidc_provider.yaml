@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_auth_backend_module_oidc_provider
+name: backstageplugin_auth_backend_module_oidc_provider
+owner: auth_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The oidc-provider backend module for the auth plugin.

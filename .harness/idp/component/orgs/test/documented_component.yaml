@@ -1,0 +1,13 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: documented_component
+name: ExampleDocs
+owner: user:guest
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: A Service with TechDocs documentation
+  annotations:
+    backstage.io/techdocs-ref: dir:.

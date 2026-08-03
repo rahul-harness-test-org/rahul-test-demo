@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_catalog_backend_module_scaffolder_entity_model
+name: backstageplugin_catalog_backend_module_scaffolder_entity_model
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Adds support for the scaffolder specific entity model (e.g. the Template
+    kind) to the catalog backend plugin.

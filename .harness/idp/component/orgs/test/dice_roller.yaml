@@ -1,0 +1,15 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: dice_roller
+name: dice_roller
+owner: user:guest
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: It rolls dice
+  annotations:
+    backstage.io/kubernetes-id: dice-roller
+  tags:
+  - go

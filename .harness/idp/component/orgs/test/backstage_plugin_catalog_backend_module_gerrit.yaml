@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_catalog_backend_module_gerrit
+name: backstageplugin_catalog_backend_module_gerrit
+owner: catalog_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental

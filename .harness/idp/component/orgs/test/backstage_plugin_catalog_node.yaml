@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_catalog_node
+name: backstageplugin_catalog_node
+owner: catalog_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: The plugin-catalog-node module for @backstage/plugin-catalog-backend

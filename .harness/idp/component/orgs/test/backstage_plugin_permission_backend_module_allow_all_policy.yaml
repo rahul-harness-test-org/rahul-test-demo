@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_permission_backend_module_allow_all_policy
+name: backstageplugin_permission_backend_module_allow_all_policy
+owner: permission_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Allow all policy backend module for the permission plugin.

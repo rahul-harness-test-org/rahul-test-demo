@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_search_backend_module_elasticsearch
+name: backstageplugin_search_backend_module_elasticsearch
+owner: search_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: A module for the search backend that implements search using ElasticSearch

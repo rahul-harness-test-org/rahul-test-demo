@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_techdocs
+name: backstageplugin_techdocs
+owner: techdocs_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: The Backstage plugin that renders technical documentation for your
+    components

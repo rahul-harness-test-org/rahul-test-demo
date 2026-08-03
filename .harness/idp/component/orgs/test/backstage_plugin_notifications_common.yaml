@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-common-library
+identifier: backstage_plugin_notifications_common
+name: backstageplugin_notifications_common
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Common functionalities for the notifications plugin

@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin
+identifier: backstage_plugin_scaffolder_backend
+name: backstageplugin_scaffolder_backend
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: production
+metadata:
+  description: The Backstage backend plugin that helps you create new things

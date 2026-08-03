@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-common-library
+identifier: backstage_plugin_permission_common
+name: backstageplugin_permission_common
+owner: permission_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Isomorphic types and client for Backstage permissions and authorization

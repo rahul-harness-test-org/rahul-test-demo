@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-backend-plugin-module
+identifier: backstage_plugin_auth_backend_module_guest_provider
+name: backstageplugin_auth_backend_module_guest_provider
+owner: auth_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The guest-provider backend module for the auth plugin.

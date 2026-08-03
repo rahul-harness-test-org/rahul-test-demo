@@ -1,0 +1,14 @@
+apiVersion: harness.io/v1
+kind: API
+type: openapi
+identifier: ci
+name: ci
+owner: ci
+orgIdentifier: test
+projectIdentifier: proj1
+spec:
+  lifecycle: production
+  definition:
+    $text: https://app.harness.io/prod1/ccm/api/openapi.json
+metadata:
+  description: The official CI REST API

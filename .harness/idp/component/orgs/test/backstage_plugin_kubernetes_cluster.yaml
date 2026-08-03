@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_kubernetes_cluster
+name: backstageplugin_kubernetes_cluster
+owner: kubernetes_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: A Backstage plugin that integrates towards Kubernetes clusters

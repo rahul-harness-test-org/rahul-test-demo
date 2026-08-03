@@ -1,0 +1,19 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: my_example_service
+name: my_example_service
+owner: my_team
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: |
+    My Example service which has something to do with APIs and database.
+  annotations:
+    github.com/project-slug: myorg/myrepo
+    backstage.io/techdocs-ref: dir:../../
+    lighthouse.com/website-url: https://harness.io
+  links:
+  - title: Website
+    url: http://my-internal-website.com

@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_proxy_node
+name: backstageplugin_proxy_node
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: The plugin-proxy-node module for @backstage/plugin-proxy-backend

@@ -1,0 +1,13 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: Change_Me
+name: Change_Me
+owner: engineering
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Manually created Component
+  annotations:
+    backstage.io/techdocs-ref: dir:.

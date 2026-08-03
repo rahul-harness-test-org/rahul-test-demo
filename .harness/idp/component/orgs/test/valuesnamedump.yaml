@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: valuesnamedump
+name: valuesnamedump
+owner: user:guest
+orgIdentifier: test
+spec:
+  lifecycle: experimental

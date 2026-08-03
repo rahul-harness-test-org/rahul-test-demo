@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-node-library
+identifier: backstage_plugin_permission_node
+name: backstageplugin_permission_node
+owner: permission_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Common permission and authorization utilities for backend plugins

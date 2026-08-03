@@ -1,0 +1,19 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: my_sample_service
+name: my_sample_service
+owner: my_sample_team
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: My Sample service.
+  annotations:
+    github.com/project-slug: my-sample-org/my-sample-repo
+    backstage.io/techdocs-ref: dir:../../
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample

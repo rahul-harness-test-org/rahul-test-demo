@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-web-library
+identifier: backstage_plugin_kubernetes_react
+name: backstageplugin_kubernetes_react
+owner: kubernetes_maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental
+metadata:
+  description: Shared frontend utilities for Kubernetes plugins

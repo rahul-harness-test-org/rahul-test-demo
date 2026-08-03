@@ -1,0 +1,9 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend-plugin
+identifier: backstage_plugin_notifications
+name: backstageplugin_notifications
+owner: maintainers
+orgIdentifier: test
+spec:
+  lifecycle: experimental

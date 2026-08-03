@@ -1,0 +1,10 @@
+apiVersion: harness.io/v1
+kind: Component
+type: backstage-frontend
+identifier: example_app_next
+name: example_app_next
+owner: framework_maintainers
+orgIdentifier: test
+projectIdentifier: proj1
+spec:
+  lifecycle: experimental
